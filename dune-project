@@ -163,3 +163,17 @@
     (< 4.14)))
   csexp
   sexplib0))
+
+(package
+ (name ocamlformat-lib)
+ (synopsis "Internal ocamlformatl library")
+ (description
+  "OCamlFormat is a tool to automatically format OCaml code in a uniform style. This package defines a RPC interface to OCamlFormat")
+ (license MIT)
+ (depends
+  (ocaml
+   (and
+    (>= 4.08)
+    (< 4.14)))
+  csexp
+  sexplib0))
