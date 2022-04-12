@@ -35,7 +35,7 @@
   (ocaml
    (and
     (>= 4.08)
-    (< 4.14)))
+    (< 5.1)))
   (alcotest :with-test)
   (base
    (and
@@ -160,6 +160,6 @@
   (ocaml
    (and
     (>= 4.08)
-    (< 4.14)))
+    (< 5.1)))
   csexp
   sexplib0))
